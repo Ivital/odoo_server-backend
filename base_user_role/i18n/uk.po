@@ -16,8 +16,7 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_groups__role_count
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__role_count
+#: model:ir.model.fields,field_description:base_user_role.field_res_groups__role_count model:ir.model.fields,field_description:base_user_role.field_res_users_role__role_count
 msgid "# User Roles"
 msgstr "# Ролі користувачів"
 
@@ -58,8 +57,7 @@ msgid "Access Menu"
 msgstr "Меню доступу"
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__model_access_ids
-#: model_terms:ir.ui.view,arch_db:base_user_role.view_res_users_role_form
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__model_access_ids model_terms:ir.ui.view,arch_db:base_user_role.view_res_users_role_form
 msgid "Access Rights"
 msgstr "Права доступу"
 
@@ -69,8 +67,7 @@ msgid "Active"
 msgstr "Активна"
 
 #. module: base_user_role
-#: model:ir.actions.act_window,name:base_user_role.action_add_multiple_users_wizard
-#: model_terms:ir.ui.view,arch_db:base_user_role.view_res_users_role_form
+#: model:ir.actions.act_window,name:base_user_role.action_add_multiple_users_wizard model_terms:ir.ui.view,arch_db:base_user_role.view_res_users_role_form
 msgid "Add Multiple Users"
 msgstr "Додати кількох користувачів"
 
@@ -105,8 +102,7 @@ msgid "Associated group's category"
 msgstr "Категорія пов’язаної групи"
 
 #. module: base_user_role
-#: model_terms:ir.ui.view,arch_db:base_user_role.group_groups_into_role_wiz_view
-#: model_terms:ir.ui.view,arch_db:base_user_role.view_res_users_role_add_users_wizard
+#: model_terms:ir.ui.view,arch_db:base_user_role.group_groups_into_role_wiz_view model_terms:ir.ui.view,arch_db:base_user_role.view_res_users_role_add_users_wizard
 msgid "Cancel"
 msgstr "Скасувати"
 
@@ -126,8 +122,7 @@ msgid "Comment"
 msgstr "Коментар"
 
 #. module: base_user_role
-#: model_terms:ir.ui.view,arch_db:base_user_role.create_from_user_wizard_view
-#: model_terms:ir.ui.view,arch_db:base_user_role.group_groups_into_role_wiz_view
+#: model_terms:ir.ui.view,arch_db:base_user_role.create_from_user_wizard_view model_terms:ir.ui.view,arch_db:base_user_role.group_groups_into_role_wiz_view
 msgid "Create"
 msgstr "Створити"
 
@@ -137,8 +132,7 @@ msgid "Create Role"
 msgstr "Створити роль"
 
 #. module: base_user_role
-#: model:ir.actions.act_window,name:base_user_role.create_from_user_wizard_action
-#: model_terms:ir.ui.view,arch_db:base_user_role.create_from_user_wizard_view
+#: model:ir.actions.act_window,name:base_user_role.create_from_user_wizard_action model_terms:ir.ui.view,arch_db:base_user_role.create_from_user_wizard_view
 msgid "Create role from user"
 msgstr "Створити роль із користувача"
 
@@ -148,36 +142,22 @@ msgid "Create role from user wizard"
 msgstr "Майстер створення ролі з користувача"
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__create_uid
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__create_uid
-#: model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__create_uid
-#: model:ir.model.fields,field_description:base_user_role.field_wizard_create_role_from_user__create_uid
-#: model:ir.model.fields,field_description:base_user_role.field_wizard_groups_into_role__create_uid
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__create_uid model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__create_uid model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__create_uid model:ir.model.fields,field_description:base_user_role.field_wizard_create_role_from_user__create_uid model:ir.model.fields,field_description:base_user_role.field_wizard_groups_into_role__create_uid
 msgid "Created by"
 msgstr "Створив"
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__create_date
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__create_date
-#: model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__create_date
-#: model:ir.model.fields,field_description:base_user_role.field_wizard_create_role_from_user__create_date
-#: model:ir.model.fields,field_description:base_user_role.field_wizard_groups_into_role__create_date
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__create_date model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__create_date model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__create_date model:ir.model.fields,field_description:base_user_role.field_wizard_create_role_from_user__create_date model:ir.model.fields,field_description:base_user_role.field_wizard_groups_into_role__create_date
 msgid "Created on"
 msgstr "Створено"
 
 #. module: base_user_role
 #: model:ir.model.fields,help:base_user_role.field_res_users_role__api_key_duration
-msgid ""
-"Determines the maximum duration of an api key created by a user belonging to"
-" this group."
+msgid "Determines the maximum duration of an api key created by a user belonging to this group."
 msgstr "Визначає максимальний строк дії API-ключа, створеного користувачем, що належить до цієї групи."
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__display_name
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__display_name
-#: model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__display_name
-#: model:ir.model.fields,field_description:base_user_role.field_wizard_create_role_from_user__display_name
-#: model:ir.model.fields,field_description:base_user_role.field_wizard_groups_into_role__display_name
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__display_name model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__display_name model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__display_name model:ir.model.fields,field_description:base_user_role.field_wizard_create_role_from_user__display_name model:ir.model.fields,field_description:base_user_role.field_wizard_groups_into_role__display_name
 msgid "Display Name"
 msgstr "Назва для відображення"
 
@@ -187,8 +167,7 @@ msgid "Enabled"
 msgstr "Активна"
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__date_from
-#: model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__date_from
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__date_from model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__date_from
 msgid "From"
 msgstr "Від"
 
@@ -218,11 +197,7 @@ msgid "Groups"
 msgstr "Групи"
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__id
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__id
-#: model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__id
-#: model:ir.model.fields,field_description:base_user_role.field_wizard_create_role_from_user__id
-#: model:ir.model.fields,field_description:base_user_role.field_wizard_groups_into_role__id
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__id model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__id model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__id model:ir.model.fields,field_description:base_user_role.field_wizard_create_role_from_user__id model:ir.model.fields,field_description:base_user_role.field_wizard_groups_into_role__id
 msgid "ID"
 msgstr "ID"
 
@@ -237,28 +212,17 @@ msgid "Internal Notes"
 msgstr "Внутрішні нотатки"
 
 #. module: base_user_role
-#: model:ir.model.fields,help:base_user_role.field_res_groups__parent_ids
-#: model:ir.model.fields,help:base_user_role.field_res_users_role__parent_ids
-msgid ""
-"Inverse relation for the Inherits field. The groups from which this group is"
-" inheriting"
+#: model:ir.model.fields,help:base_user_role.field_res_groups__parent_ids model:ir.model.fields,help:base_user_role.field_res_users_role__parent_ids
+msgid "Inverse relation for the Inherits field. The groups from which this group is inheriting"
 msgstr "Зворотний зв’язок для поля «Успадковує». Групи, від яких ця група успадковує права."
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__write_uid
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__write_uid
-#: model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__write_uid
-#: model:ir.model.fields,field_description:base_user_role.field_wizard_create_role_from_user__write_uid
-#: model:ir.model.fields,field_description:base_user_role.field_wizard_groups_into_role__write_uid
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__write_uid model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__write_uid model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__write_uid model:ir.model.fields,field_description:base_user_role.field_wizard_create_role_from_user__write_uid model:ir.model.fields,field_description:base_user_role.field_wizard_groups_into_role__write_uid
 msgid "Last Updated by"
 msgstr "Останнє оновлення виконав"
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__write_date
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__write_date
-#: model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__write_date
-#: model:ir.model.fields,field_description:base_user_role.field_wizard_create_role_from_user__write_date
-#: model:ir.model.fields,field_description:base_user_role.field_wizard_groups_into_role__write_date
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__write_date model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__write_date model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__write_date model:ir.model.fields,field_description:base_user_role.field_wizard_create_role_from_user__write_date model:ir.model.fields,field_description:base_user_role.field_wizard_groups_into_role__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
 
@@ -268,54 +232,42 @@ msgid "Model Access Count"
 msgstr "Кількість прав доступу до моделей"
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__name
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__name
-#: model:ir.model.fields,field_description:base_user_role.field_wizard_create_role_from_user__name
-#: model:ir.model.fields,field_description:base_user_role.field_wizard_groups_into_role__name
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__name model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__name model:ir.model.fields,field_description:base_user_role.field_wizard_create_role_from_user__name model:ir.model.fields,field_description:base_user_role.field_wizard_groups_into_role__name
 msgid "Name"
 msgstr "Назва"
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_groups__trans_parent_ids
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__trans_parent_ids
+#: model:ir.model.fields,field_description:base_user_role.field_res_groups__trans_parent_ids model:ir.model.fields,field_description:base_user_role.field_res_users_role__trans_parent_ids
 msgid "Parent Groups"
 msgstr "Батьківські групи"
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_groups__parent_ids
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__parent_ids
+#: model:ir.model.fields,field_description:base_user_role.field_res_groups__parent_ids model:ir.model.fields,field_description:base_user_role.field_res_users_role__parent_ids
 msgid "Parents"
 msgstr "Батьківські групи"
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__rule_ids
-#: model_terms:ir.ui.view,arch_db:base_user_role.view_res_users_role_form
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__rule_ids model_terms:ir.ui.view,arch_db:base_user_role.view_res_users_role_form
 msgid "Record Rules"
 msgstr "Правила записів"
 
 #. module: base_user_role
-#: model:ir.model.fields,help:base_user_role.field_res_groups__role_id
-#: model:ir.model.fields,help:base_user_role.field_res_users_role__role_id
+#: model:ir.model.fields,help:base_user_role.field_res_groups__role_id model:ir.model.fields,help:base_user_role.field_res_users_role__role_id
 msgid "Relation for the groups that represents a role"
 msgstr "Зв’язок для груп, що представляють роль"
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_groups__role_id
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__role_id
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__role_id
-#: model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__role_id
+#: model:ir.model.fields,field_description:base_user_role.field_res_groups__role_id model:ir.model.fields,field_description:base_user_role.field_res_users_role__role_id model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__role_id model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__role_id
 msgid "Role"
 msgstr "Роль"
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_users__role_line_ids
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__line_ids
+#: model:ir.model.fields,field_description:base_user_role.field_res_users__role_line_ids model:ir.model.fields,field_description:base_user_role.field_res_users_role__line_ids
 msgid "Role lines"
 msgstr "Рядки ролі"
 
 #. module: base_user_role
-#: model:ir.model.fields,help:base_user_role.field_res_groups__role_ids
-#: model:ir.model.fields,help:base_user_role.field_res_users_role__role_ids
+#: model:ir.model.fields,help:base_user_role.field_res_groups__role_ids model:ir.model.fields,help:base_user_role.field_res_users_role__role_ids
 msgid "Roles in which the group is involved"
 msgstr "Ролі, до яких входить група"
 
@@ -330,8 +282,7 @@ msgid "Rules Count"
 msgstr "Кількість правил"
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__sequence
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__sequence
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__sequence model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__sequence
 msgid "Sequence"
 msgstr "Послідовність"
 
@@ -346,8 +297,7 @@ msgid "Show Alert"
 msgstr "Показувати попередження"
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__date_to
-#: model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__date_to
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__date_to model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__date_to
 msgid "To"
 msgstr "До"
 
@@ -362,8 +312,7 @@ msgid "Update user roles"
 msgstr "Оновити ролі користувачів"
 
 #. module: base_user_role
-#: model:ir.model,name:base_user_role.model_res_users
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__user_id
+#: model:ir.model,name:base_user_role.model_res_users model:ir.model.fields,field_description:base_user_role.field_res_users_role_line__user_id
 msgid "User"
 msgstr "Користувач"
 
@@ -373,18 +322,12 @@ msgid "User Role"
 msgstr "Роль користувача"
 
 #. module: base_user_role
-#: model:ir.actions.act_window,name:base_user_role.action_res_users_role_tree
-#: model:ir.model.fields,field_description:base_user_role.field_res_groups__role_ids
-#: model:ir.model.fields,field_description:base_user_role.field_res_users__role_ids
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__role_ids
-#: model:ir.ui.menu,name:base_user_role.menu_action_res_users_role_tree
-#: model_terms:ir.ui.view,arch_db:base_user_role.res_groups_view_form
-#: model_terms:ir.ui.view,arch_db:base_user_role.view_res_users_form_inherit
+#: model:ir.actions.act_window,name:base_user_role.action_res_users_role_tree model:ir.model.fields,field_description:base_user_role.field_res_groups__role_ids model:ir.model.fields,field_description:base_user_role.field_res_users__role_ids model:ir.model.fields,field_description:base_user_role.field_res_users_role__role_ids model:ir.ui.menu,name:base_user_role.menu_action_res_users_role_tree model_terms:ir.ui.view,arch_db:base_user_role.res_groups_view_form model_terms:ir.ui.view,arch_db:base_user_role.view_res_users_form_inherit
 msgid "User Roles"
 msgstr "Ролі користувачів"
 
 #. module: base_user_role
-#: model:ir.module.category,name:base_user_role.ir_module_category_role
+#: model:ir.module.category,name:base_user_role.ir_module_category_role model:ir.module.module,shortdesc:base.module_base_user_role
 msgid "User roles"
 msgstr "Ролі користувачів"
 
@@ -394,9 +337,7 @@ msgid "User roles can be assigned to a user only once at a time"
 msgstr "Кожну роль користувача можна призначити користувачу лише один раз одночасно"
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__users
-#: model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__user_ids
-#: model_terms:ir.ui.view,arch_db:base_user_role.view_res_users_role_form
+#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__users model:ir.model.fields,field_description:base_user_role.field_role_add_users_wizard__user_ids model_terms:ir.ui.view,arch_db:base_user_role.view_res_users_role_form
 msgid "Users"
 msgstr "Користувачі"
 
@@ -416,8 +357,7 @@ msgid "Users of this group automatically inherit those groups"
 msgstr "Користувачі цієї групи автоматично успадковують ці групи"
 
 #. module: base_user_role
-#: model:ir.model.fields,field_description:base_user_role.field_res_groups__view_access
-#: model:ir.model.fields,field_description:base_user_role.field_res_users_role__view_access
+#: model:ir.model.fields,field_description:base_user_role.field_res_groups__view_access model:ir.model.fields,field_description:base_user_role.field_res_users_role__view_access
 msgid "Views"
 msgstr "Представлення"
 

@@ -117,7 +117,7 @@ msgstr "Зіставлення імпорту"
 #. module: base_import_match
 #: model:ir.model.fields,field_description:base_import_match.field_base_import_match_field__imported_value
 msgid "Imported Value"
-msgstr ""
+msgstr "Імпортоване значення"
 
 #. module: base_import_match
 #: model:ir.model.fields,help:base_import_match.field_base_import_match__model_id

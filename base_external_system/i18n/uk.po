@@ -96,3 +96,29 @@ msgstr "Тип системи"
 #: model_terms:ir.ui.view,arch_db:base_external_system.external_system_view_search
 msgid "Username"
 msgstr "Ім’я користувача"
+
+#. module: base_external_system
+#: model:ir.model,name:base_external_system.model_external_system
+#: model_terms:ir.ui.view,arch_db:base_external_system.external_system_view_form
+msgid "External System"
+msgstr "Зовнішня система"
+
+#. module: base_external_system
+#: model_terms:ir.ui.view,arch_db:base_external_system.external_system_view_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: base_external_system
+#: model:ir.model.fields,field_description:base_external_system.field_external_system__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_external_system
+#: model:ir.model.fields,field_description:base_external_system.field_external_system__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: base_external_system
+#: model_terms:ir.ui.view,arch_db:base_external_system.external_system_view_form
+msgid "Test Connection"
+msgstr "Перевірити з'єднання"

@@ -59,3 +59,48 @@ msgstr "Продажі"
 #: model:ir.model.fields,field_description:base_global_discount.field_global_discount__sequence
 msgid "Sequence"
 msgstr "Послідовність"
+
+#. module: base_global_discount
+#: model:ir.model.fields,field_description:base_global_discount.field_global_discount__name
+msgid "Discount Name"
+msgstr "Назва знижки"
+
+#. module: base_global_discount
+#: model:ir.model.fields,field_description:base_global_discount.field_global_discount__discount_scope
+msgid "Discount Scope"
+msgstr "Область знижки"
+
+#. module: base_global_discount
+#: model:ir.model.fields,field_description:base_global_discount.field_product_product__bypass_global_discount
+#: model:ir.model.fields,field_description:base_global_discount.field_product_template__bypass_global_discount
+msgid "Don't apply global discount"
+msgstr "Не застосовувати глобальну знижку"
+
+#. module: base_global_discount
+#: model:ir.model,name:base_global_discount.model_global_discount
+msgid "Global Discount"
+msgstr "Глобальна знижка"
+
+#. module: base_global_discount
+#: model:ir.model.fields,field_description:base_global_discount.field_global_discount__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_global_discount
+#: model:ir.model.fields,field_description:base_global_discount.field_global_discount__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: base_global_discount
+#: model:ir.model.fields,field_description:base_global_discount.field_res_partner__supplier_global_discount_ids
+#: model:ir.model.fields,field_description:base_global_discount.field_res_users__supplier_global_discount_ids
+#: model_terms:ir.ui.view,arch_db:base_global_discount.res_partner_form_view
+msgid "Purchase Global Discounts"
+msgstr "Глобальні знижки закупівлі"
+
+#. module: base_global_discount
+#: model:ir.model.fields,field_description:base_global_discount.field_res_partner__customer_global_discount_ids
+#: model:ir.model.fields,field_description:base_global_discount.field_res_users__customer_global_discount_ids
+#: model_terms:ir.ui.view,arch_db:base_global_discount.res_partner_form_view
+msgid "Sale Global Discounts"
+msgstr "Глобальні знижки продажу"

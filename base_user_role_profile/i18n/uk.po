@@ -54,3 +54,23 @@ msgstr "Послідовність"
 #: model:ir.ui.menu,name:base_user_role_profile.menu_action_res_users_profile_tree
 msgid "User Profiles"
 msgstr "Профілі користувачів"
+
+#. module: base_user_role_profile
+#: model:ir.model.fields,field_description:base_user_role_profile.field_res_users_profile__user_ids
+msgid "Allowed users"
+msgstr "Дозволені користувачі"
+
+#. module: base_user_role_profile
+#: model:ir.model.fields,field_description:base_user_role_profile.field_res_users__profile_id
+msgid "Current profile"
+msgstr "Поточний профіль"
+
+#. module: base_user_role_profile
+#: model:ir.model.fields,field_description:base_user_role_profile.field_res_users_profile__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_user_role_profile
+#: model:ir.model.fields,field_description:base_user_role_profile.field_res_users_profile__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

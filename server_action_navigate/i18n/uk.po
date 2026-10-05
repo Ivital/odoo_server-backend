@@ -42,3 +42,47 @@ msgstr "Поле"
 #: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server_navigate_line__field_domain_model_id
 msgid "Field Model"
 msgstr "Модель поля"
+
+#. module: server_action_navigate
+#: model_terms:ir.ui.view,arch_db:server_action_navigate.view_ir_actions_server_form
+msgid "Delete Last Line"
+msgstr "Видалити останній рядок"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server__navigate_model_id
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_cron__navigate_model_id
+msgid "Final Navigation Model"
+msgstr "Кінцева модель навігації"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server_navigate_line__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server_navigate_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: server_action_navigate
+#: model:ir.model.fields.selection,name:server_action_navigate.selection__ir_actions_server__state__navigate
+msgid "Navigate"
+msgstr "Перейти"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server__navigate_line_ids
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_cron__navigate_line_ids
+msgid "Navigate Lines"
+msgstr "Рядки навігації"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server__navigate_model_technical_name
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_cron__navigate_model_technical_name
+msgid "Navigate Model Technical Name"
+msgstr "Технічна назва моделі навігації"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_actions_server__navigate_action_id
+#: model:ir.model.fields,field_description:server_action_navigate.field_ir_cron__navigate_action_id
+msgid "Navigation Action"
+msgstr "Дія навігації"

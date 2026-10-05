@@ -101,3 +101,67 @@ msgstr "Попередній перегляд"
 #: model:ir.model.fields,field_description:base_ical.field_base_ical_url_show__url
 msgid "Url"
 msgstr "URL"
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "Advanced"
+msgstr "Розширений"
+
+#. module: base_ical
+#: model:ir.model.fields,field_description:base_ical.field_base_ical__allowed_users_ids
+msgid "Allowed Users"
+msgstr "Дозволені користувачі"
+
+#. module: base_ical
+#: model_terms:ir.ui.view,arch_db:base_ical.view_res_users_form
+msgid "Calendars"
+msgstr "Календарі"
+
+#. module: base_ical
+#: model_terms:ir.ui.view,arch_db:base_ical.view_icalendar_url_description_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: base_ical
+#: model_terms:ir.ui.view,arch_db:base_ical.view_icalendar_url_show_form
+msgid "Done!"
+msgstr "Готово!"
+
+#. module: base_ical
+#: model_terms:ir.ui.view,arch_db:base_ical.view_res_users_form
+msgid "Existing Access"
+msgstr "Наявний доступ"
+
+#. module: base_ical
+#: model_terms:ir.ui.view,arch_db:base_ical.view_icalendar_url_description_form
+msgid "Generate url"
+msgstr "Згенерувати URL"
+
+#. module: base_ical
+#: model_terms:ir.ui.view,arch_db:base_ical.view_base_ical_form
+msgid "Help"
+msgstr "Довідка"
+
+#. module: base_ical
+#: model:ir.model.fields,field_description:base_ical.field_base_ical__write_uid
+#: model:ir.model.fields,field_description:base_ical.field_base_ical_url_description__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_ical
+#: model:ir.model.fields,field_description:base_ical.field_base_ical__write_date
+#: model:ir.model.fields,field_description:base_ical.field_base_ical_url_description__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: base_ical
+#: model_terms:ir.ui.view,arch_db:base_ical.view_res_users_form
+msgid "New URL"
+msgstr "Новий URL"
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "Simple"
+msgstr "Простий"

@@ -85,3 +85,9 @@ msgstr "Сортувати"
 #: model:ir.model.fields,field_description:server_action_sort.field_ir_cron__sort_line_ids
 msgid "Sorting Criterias"
 msgstr "Критерії сортування"
+
+#. module: server_action_sort
+#: model:ir.model.fields,help:server_action_sort.field_ir_actions_server__sort_field_id_model
+#: model:ir.model.fields,help:server_action_sort.field_ir_cron__sort_field_id_model
+msgid "For relationship fields, the technical name of the target model"
+msgstr "Для полів взаємин - технічне ім'я цільової моделі"

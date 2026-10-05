@@ -74,3 +74,18 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:base_user_role_profile.field_res_users_profile__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: base_user_role_profile
+#: model:ir.model.fields,field_description:base_user_role_profile.field_res_users__profile_ids
+msgid "Currently allowed profiles"
+msgstr "Наразі дозволені профілі"
+
+#. module: base_user_role_profile
+#: model:ir.model.fields,field_description:base_user_role_profile.field_res_users__include_default_profile
+msgid "Include Default Profile"
+msgstr "Включати профіль за замовчуванням"
+
+#. module: base_user_role_profile
+#: model:ir.model.fields,field_description:base_user_role_profile.field_res_users__restrict_profile_switching
+msgid "Restrict Profile Switching"
+msgstr "Обмежити перемикання профілів"

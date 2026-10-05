@@ -122,3 +122,23 @@ msgstr "Останнє оновлення"
 #: model_terms:ir.ui.view,arch_db:base_external_system.external_system_view_form
 msgid "Test Connection"
 msgstr "Перевірити з'єднання"
+
+#. module: base_external_system
+#: model_terms:ir.ui.view,arch_db:base_external_system.external_system_view_form
+msgid "For client assertion name of keyfile or content"
+msgstr "Для client assertion — ім’я файла ключа або вміст"
+
+#. module: base_external_system
+#: model:ir.model.fields,field_description:base_external_system.field_external_system__ignore_fingerprint
+msgid "Ignore Fingerprint"
+msgstr "Ігнорувати відбиток"
+
+#. module: base_external_system
+#: model:ir.model.fields,field_description:base_external_system.field_external_system__private_key_password
+msgid "Private Key Password"
+msgstr "Пароль приватного ключа"
+
+#. module: base_external_system
+#: model:ir.model.fields,field_description:base_external_system.field_external_system__private_key_thumbprint
+msgid "Private Key Thumbprint"
+msgstr "Відбиток приватного ключа"

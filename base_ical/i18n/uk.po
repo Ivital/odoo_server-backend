@@ -165,3 +165,41 @@ msgstr "Новий URL"
 #: code:addons/base_ical/models/base_ical.py:0
 msgid "Simple"
 msgstr "Простий"
+
+#. module: base_ical
+#: model_terms:ir.ui.view,arch_db:base_ical.view_icalendar_url_show_form
+msgid ""
+"<strong>Important:</strong>\n"
+"                        The url cannot be retrieved later and provides access to this calendar without further authentication."
+msgstr ""
+"<strong>Важливо:</strong>\n"
+"                        URL неможливо буде отримати пізніше; він надає доступ до цього календаря без додаткової автентифікації."
+
+#. module: base_ical
+#: model_terms:ir.ui.view,arch_db:base_ical.view_base_ical_form
+msgid "Advanced Configuration"
+msgstr "Розширена конфігурація"
+
+#. module: base_ical
+#: model:ir.model.fields,field_description:base_ical.field_base_ical__auto
+msgid "Allow automatically"
+msgstr "Дозволити автоматично"
+
+#. module: base_ical
+#: model_terms:ir.ui.view,arch_db:base_ical.view_icalendar_url_show_form
+msgid "Here is your new URL to the calendar."
+msgstr "Ось ваша нова URL-адреса календаря."
+
+#. module: base_ical
+#: model_terms:ir.ui.view,arch_db:base_ical.view_base_ical_form
+msgid "Simple Configuration"
+msgstr "Проста конфігурація"
+
+#. module: base_ical
+#: model:ir.model.fields,help:base_ical.field_base_ical__expression_dtend
+#: model:ir.model.fields,help:base_ical.field_base_ical__expression_dtstamp
+#: model:ir.model.fields,help:base_ical.field_base_ical__expression_dtstart
+#: model:ir.model.fields,help:base_ical.field_base_ical__expression_summary
+#: model:ir.model.fields,help:base_ical.field_base_ical__expression_uid
+msgid "You can use variables `record` and `user` here"
+msgstr "Тут можна використовувати змінні `record` і `user`"

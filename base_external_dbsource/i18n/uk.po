@@ -169,7 +169,7 @@ msgstr "Пароль"
 #. module: base_external_dbsource
 #: model:ir.model.fields,help:base_external_dbsource.field_base_external_dbsource__ca_certs
 msgid "Path to CA Certs file on server."
-msgstr ""
+msgstr "Шлях до файлу сертифікатів CA на сервері."
 
 #. module: base_external_dbsource
 #: model_terms:ir.ui.view,arch_db:base_external_dbsource.view_dbsource_form

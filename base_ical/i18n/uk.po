@@ -203,3 +203,43 @@ msgstr "Проста конфігурація"
 #: model:ir.model.fields,help:base_ical.field_base_ical__expression_uid
 msgid "You can use variables `record` and `user` here"
 msgstr "Тут можна використовувати змінні `record` і `user`"
+
+#. module: base_ical
+#: model:ir.model,name:base_ical.model_base_ical
+msgid "Definition of an iCal export"
+msgstr "Визначення експорту iCal"
+
+#. module: base_ical
+#: model:ir.model,name:base_ical.model_base_ical_url_description
+msgid "Description for iCalendar"
+msgstr "Опис для iCalendar"
+
+#. module: base_ical
+#: model:ir.model.fields,help:base_ical.field_base_ical__auto
+msgid ""
+"If you check this, the calendar will be enabled for all current and future "
+"users. Note that unchecking this will not disable existing calendar "
+"subscriptions"
+msgstr ""
+"Якщо позначити це, календар буде увімкнено для всіх поточних і майбутніх "
+"користувачів. Зауважте, що зняття прапорця не вимкне вже наявні підписки на "
+"календар."
+
+#. module: base_ical
+#: model:ir.model.fields,help:base_ical.field_base_ical__auto_group_ids
+msgid ""
+"Only users of selected groups will be auto-allowed. Leave empty for all "
+"users"
+msgstr ""
+"Автоматичний доступ матимуть лише користувачі вибраних груп. Залиште "
+"порожнім для всіх користувачів"
+
+#. module: base_ical
+#: model:ir.model,name:base_ical.model_base_ical_url_show
+msgid "Show URL for iCalendar"
+msgstr "Показувати URL для iCalendar"
+
+#. module: base_ical
+#: model:ir.model.fields,help:base_ical.field_base_ical__domain
+msgid "You can use variables `env` and `user` here"
+msgstr "Тут можна використовувати змінні `env` і `user`"

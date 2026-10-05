@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model,name:base_external_dbsource_sqlite.model_base_external_dbsource
 msgid "External Database Sources"
 msgstr "Зовнішні джерела бази даних"
+
+#. module: base_external_dbsource_sqlite
+#: model:ir.model.fields,help:base_external_dbsource_sqlite.field_base_external_dbsource__connector
+msgid ""
+"If a connector is missing from the list, check the server log to confirm "
+"that the required components were detected."
+msgstr ""
+"Якщо конектора немає у списку, перевірте журнал сервера, щоб підтвердити "
+"виявлення потрібних компонентів."

@@ -86,3 +86,23 @@ msgstr "Технічна назва моделі навігації"
 #: model:ir.model.fields,field_description:server_action_navigate.field_ir_cron__navigate_action_id
 msgid "Navigation Action"
 msgstr "Дія навігації"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,help:server_action_navigate.field_ir_actions_server__navigate_action_id
+#: model:ir.model.fields,help:server_action_navigate.field_ir_cron__navigate_action_id
+msgid ""
+"Define here the action used when the navigation will be executed if empty, a"
+" generic action will be used."
+msgstr ""
+"Визначте дію, що виконується під час навігації; якщо порожньо, буде "
+"використано загальну дію."
+
+#. module: server_action_navigate
+#: model:ir.model,name:server_action_navigate.model_ir_actions_server_navigate_line
+msgid "Server Actions Navigation Lines"
+msgstr "Рядки навігації серверних дій"
+
+#. module: server_action_navigate
+#: model:ir.model.fields,help:server_action_navigate.field_ir_actions_server_navigate_line__field_domain_model_id
+msgid "Technical field, used as a domain for the 'field' field."
+msgstr "Технічне поле, що використовується як домен для поля 'field'."

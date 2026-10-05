@@ -104,3 +104,23 @@ msgstr "Глобальні знижки закупівлі"
 #: model_terms:ir.ui.view,arch_db:base_global_discount.res_partner_form_view
 msgid "Sale Global Discounts"
 msgstr "Глобальні знижки продажу"
+
+#. module: base_global_discount
+#: model:ir.model.fields,help:base_global_discount.field_global_discount__sequence
+msgid "Gives the order to apply discounts"
+msgstr "Визначає порядок застосування знижок"
+
+#. module: base_global_discount
+#: model:ir.model.fields,help:base_global_discount.field_product_product__bypass_global_discount
+#: model:ir.model.fields,help:base_global_discount.field_product_template__bypass_global_discount
+msgid ""
+"If this checkbox is ticked, it means that this product will not be taken "
+"into account when calculating the global discounts."
+msgstr ""
+"Якщо позначено, цей товар не враховуватиметься під час розрахунку глобальних"
+" знижок."
+
+#. module: base_global_discount
+#: model:res.groups,name:base_global_discount.group_global_discount
+msgid "Manage Global Discounts"
+msgstr "Керування глобальними знижками"

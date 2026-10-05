@@ -89,3 +89,28 @@ msgstr "Включати профіль за замовчуванням"
 #: model:ir.model.fields,field_description:base_user_role_profile.field_res_users__restrict_profile_switching
 msgid "Restrict Profile Switching"
 msgstr "Обмежити перемикання профілів"
+
+#. module: base_user_role_profile
+#: model:ir.model.fields,help:base_user_role_profile.field_res_users__include_default_profile
+msgid ""
+"If enabled, the default profile ('no profile') will be added to the user's "
+"allowed profiles. This allows the user to select a profile that activates "
+"only the roles not associated with any specific profile."
+msgstr ""
+"Якщо ввімкнено, типовий профіль ('без профілю') буде додано до дозволених "
+"профілів користувача. Це дає змогу вибрати профіль, який активує лише ролі, "
+"не пов'язані з жодним конкретним профілем."
+
+#. module: base_user_role_profile
+#: model:ir.model.fields,help:base_user_role_profile.field_res_users__restrict_profile_switching
+msgid ""
+"If enabled, the user will be prevented from changing their profile. This "
+"acts as a security measure to lock users into their current profile."
+msgstr ""
+"Якщо увімкнено, користувачеві буде заборонено змінювати свій профіль. Це "
+"захід безпеки, який фіксує користувача в поточному профілі."
+
+#. module: base_user_role_profile
+#: model:ir.model,name:base_user_role_profile.model_res_users_profile
+msgid "Role profile"
+msgstr "Профіль ролі"

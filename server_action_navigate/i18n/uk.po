@@ -106,3 +106,13 @@ msgstr "Рядки навігації серверних дій"
 #: model:ir.model.fields,help:server_action_navigate.field_ir_actions_server_navigate_line__field_domain_model_id
 msgid "Technical field, used as a domain for the 'field' field."
 msgstr "Технічне поле, що використовується як домен для поля 'field'."
+
+#. module: server_action_navigate
+#. odoo-python
+#: code:addons/server_action_navigate/models/ir_actions_server.py:0
+msgid ""
+"The Action Server %s is not correctly set\n"
+" : No fields defined"
+msgstr ""
+"Серверна дія %s налаштована неправильно\n"
+": Поля не визначено"

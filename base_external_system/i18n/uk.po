@@ -241,3 +241,29 @@ msgid ""
 "applicable."
 msgstr ""
 "Це ім’я користувача для автентифікації в цій системі, якщо застосовується."
+
+#. module: base_external_system
+#. odoo-python
+#: code:addons/base_external_system/models/external_system.py:0
+msgid "Client connection failed for system %s"
+msgstr "Не вдалося підключити клієнта до системи %s"
+
+#. module: base_external_system
+#. odoo-python
+#: code:addons/base_external_system/models/external_system.py:0
+msgid "Fingerprint cannot be empty when Ignore Fingerprint is not checked."
+msgstr ""
+"Відбиток не може бути порожнім, якщо «Ігнорувати відбиток» не позначено."
+
+#. module: base_external_system
+#. odoo-python
+#: code:addons/base_external_system/models/external_system_adapter.py:0
+msgid "Method not implemented in base adapter class."
+msgstr "Метод не реалізовано в базовому класі адаптера."
+
+#. module: base_external_system
+#. odoo-python
+#: code:addons/base_external_system/models/external_system.py:0
+msgid "Unexpected error %(exception)s when connecting to %(system_name)s"
+msgstr ""
+"Неочікувана помилка %(exception)s під час підключення до %(system_name)s"

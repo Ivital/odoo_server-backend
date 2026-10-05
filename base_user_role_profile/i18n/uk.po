@@ -114,3 +114,9 @@ msgstr ""
 #: model:ir.model,name:base_user_role_profile.model_res_users_profile
 msgid "Role profile"
 msgstr "Профіль ролі"
+
+#. module: base_user_role_profile
+#. odoo-javascript
+#: code:addons/base_user_role_profile/static/src/components/switch_profile_menu/switch_profile_menu.esm.js:0
+msgid "Switch Profile"
+msgstr "Перемкнути профіль"

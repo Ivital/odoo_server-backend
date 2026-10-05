@@ -96,3 +96,23 @@ msgstr "Для полів взаємин - технічне ім'я цільов
 #: model:ir.model,name:server_action_sort.model_ir_actions_server_sort_line
 msgid "Server Actions Sort Lines"
 msgstr "Сортування рядків серверних дій"
+
+#. module: server_action_sort
+#. odoo-python
+#: code:addons/server_action_sort/models/ir_actions_server.py:0
+msgid ""
+"The Action Server %s is not correctly set :\n"
+"No lines defined"
+msgstr ""
+"Серверна дія %s налаштована неправильно:\n"
+"Рядки не визначено"
+
+#. module: server_action_sort
+#. odoo-python
+#: code:addons/server_action_sort/models/ir_actions_server.py:0
+msgid ""
+"You can not run this Action Server that way.\n"
+" Please use contextual 'Action' menu."
+msgstr ""
+"Не можна запускати цю серверну дію таким способом.\n"
+" Використовуйте контекстне меню «Дія»."

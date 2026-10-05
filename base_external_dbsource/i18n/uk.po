@@ -43,6 +43,8 @@ msgid ""
 "\"%(method)s\" method not found, check that all assets are installedfor the "
 "%(connector)s connector type."
 msgstr ""
+"Метод «%(method)s» не знайдено; перевірте, що всі ресурси встановлено для "
+"типу конектора %(connector)s."
 
 #. module: base_external_dbsource
 #: model:ir.model.fields,field_description:base_external_dbsource.field_base_external_dbsource__ca_certs
@@ -88,6 +90,9 @@ msgid ""
 "Here is what we got instead:\n"
 "%s"
 msgstr ""
+"Тест підключення не пройдено:\n"
+"Натомість отримано:\n"
+"%s"
 
 #. module: base_external_dbsource
 #. odoo-python
@@ -97,6 +102,8 @@ msgid ""
 "Connection test succeeded:\n"
 "Everything seems properly set up!"
 msgstr ""
+"Тест підключення успішний:\n"
+"Усе налаштовано правильно!"
 
 #. module: base_external_dbsource
 #: model:ir.model.fields,field_description:base_external_dbsource.field_base_external_dbsource__connector
@@ -191,7 +198,7 @@ msgstr "Перевірити з'єднання"
 #: code:addons/base_external_dbsource/models/base_external_dbsource.py:0
 #, python-format
 msgid "query is a required argument"
-msgstr ""
+msgstr "query є обов’язковим аргументом"
 
 #~ msgid "Last Modified on"
 #~ msgstr "Остання модифікація"

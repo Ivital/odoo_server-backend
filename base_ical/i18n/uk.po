@@ -243,3 +243,63 @@ msgstr "Показувати URL для iCalendar"
 #: model:ir.model.fields,help:base_ical.field_base_ical__domain
 msgid "You can use variables `env` and `user` here"
 msgstr "Тут можна використовувати змінні `env` і `user`"
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "Converts HTML to plain text"
+msgstr "Перетворює HTML на звичайний текст"
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "Current user record"
+msgstr "Запис поточного користувача"
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "Function to add the key-values of dict to ical component"
+msgstr "Функція для додавання пар ключ-значення словника до компонента iCal"
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical_url_description.py:0
+msgid "Only internal users can create API keys"
+msgstr "Лише внутрішні користувачі можуть створювати API-ключі"
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "Output: Calendar e.g. from `_get_ics_file`"
+msgstr "Вивід: календар, наприклад із `_get_ics_file`"
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "Output: Dictionary of an VEVENT"
+msgstr "Вивід: словник VEVENT"
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "Output: Dictionary of an VTODO"
+msgstr "Вивід: словник VTODO"
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "Record to export"
+msgstr "Запис для експорту"
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "useful Python libraries"
+msgstr "корисні бібліотеки Python"
+
+#. module: base_ical
+#. odoo-python
+#: code:addons/base_ical/models/base_ical.py:0
+msgid "vobject python library"
+msgstr "Бібліотека Python vobject"

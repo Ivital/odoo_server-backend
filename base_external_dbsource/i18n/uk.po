@@ -16,8 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 
 #. module: base_external_dbsource
 #: model:ir.model.fields,help:base_external_dbsource.field_base_external_dbsource__conn_string
@@ -30,8 +29,7 @@ msgid ""
 "    - ODBC: DRIVER={FreeTDS};SERVER=server.address;Database=mydb;UID=sa\n"
 "    - ORACLE: username/%s@//server.address:port/instance\n"
 "    - PostgreSQL:\n"
-"        dbname='template1' user='dbuser' host='localhost' "
-"port='5432'         password=%s\n"
+"        dbname='template1' user='dbuser' host='localhost' port='5432'         password=%s\n"
 "    - SQLite: sqlite:///test.db\n"
 "    - Elasticsearch: https://user:%s@localhost:9200\n"
 "    "
@@ -49,22 +47,22 @@ msgstr ""
 #. module: base_external_dbsource
 #: model:ir.model.fields,field_description:base_external_dbsource.field_base_external_dbsource__ca_certs
 msgid "Ca Certs"
-msgstr ""
+msgstr "Сертифікати CA"
 
 #. module: base_external_dbsource
 #: model:ir.model.fields,field_description:base_external_dbsource.field_base_external_dbsource__client_cert
 msgid "Client Cert"
-msgstr ""
+msgstr "Сертифікат клієнта"
 
 #. module: base_external_dbsource
 #: model:ir.model.fields,field_description:base_external_dbsource.field_base_external_dbsource__client_key
 msgid "Client Key"
-msgstr ""
+msgstr "Ключ клієнта"
 
 #. module: base_external_dbsource
 #: model:ir.model.fields,field_description:base_external_dbsource.field_base_external_dbsource__company_id
 msgid "Company"
-msgstr ""
+msgstr "Компанія"
 
 #. module: base_external_dbsource
 #: model:ir.model.fields,field_description:base_external_dbsource.field_base_external_dbsource__conn_string_full
@@ -118,7 +116,7 @@ msgstr "Дата створення"
 #. module: base_external_dbsource
 #: model:ir.ui.menu,name:base_external_dbsource.menu_dbsource
 msgid "Database Sources"
-msgstr ""
+msgstr "Джерела бази даних"
 
 #. module: base_external_dbsource
 #: model:ir.model.fields,field_description:base_external_dbsource.field_base_external_dbsource__name
@@ -166,7 +164,7 @@ msgstr "Останнє оновлення"
 #. module: base_external_dbsource
 #: model:ir.model.fields,field_description:base_external_dbsource.field_base_external_dbsource__password
 msgid "Password"
-msgstr ""
+msgstr "Пароль"
 
 #. module: base_external_dbsource
 #: model:ir.model.fields,help:base_external_dbsource.field_base_external_dbsource__ca_certs

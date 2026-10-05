@@ -1,0 +1,61 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: base_global_discount
+#: model:ir.model.fields,field_description:base_global_discount.field_global_discount__company_id
+msgid "Company"
+msgstr "Компанія"
+
+#. module: base_global_discount
+#: model:ir.model.fields,field_description:base_global_discount.field_global_discount__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: base_global_discount
+#: model:ir.model.fields,field_description:base_global_discount.field_global_discount__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: base_global_discount
+#: model:ir.model.fields,field_description:base_global_discount.field_global_discount__discount
+msgid "Discount"
+msgstr "Знижка"
+
+#. module: base_global_discount
+#: model:ir.model.fields,field_description:base_global_discount.field_global_discount__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: base_global_discount
+#: model:ir.actions.act_window,name:base_global_discount.action_global_discount_tree
+#: model:ir.ui.menu,name:base_global_discount.menu_global_discount
+#: model_terms:ir.ui.view,arch_db:base_global_discount.global_discount_view_form
+msgid "Global Discounts"
+msgstr "Глобальні знижки"
+
+#. module: base_global_discount
+#: model:ir.model.fields.selection,name:base_global_discount.selection__global_discount__discount_scope__purchase
+msgid "Purchases"
+msgstr "Закупівлі"
+
+#. module: base_global_discount
+#: model:ir.model.fields.selection,name:base_global_discount.selection__global_discount__discount_scope__sale
+msgid "Sales"
+msgstr "Продажі"
+
+#. module: base_global_discount
+#: model:ir.model.fields,field_description:base_global_discount.field_global_discount__sequence
+msgid "Sequence"
+msgstr "Послідовність"
